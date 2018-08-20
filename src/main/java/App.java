@@ -1,12 +1,13 @@
 public class App {
     private Client client;
-    private ConsoleEventLogger eventLogger;
+    private EventLogger eventLogger;
 
+public App(Client client, EventLogger eventLogger){
+    this.client = client;
+    this.eventLogger = eventLogger;
+}
     public static void main(String[] args) {
-        App app = new App();
-        app.client = new Client("1", "John Dohn");
-        app.eventLogger = new ConsoleEventLogger();
-
+        App app = new App(new Client("1", "Foo bar"), new ConsoleEventLogger());
         app.logEvent("Message for my favorite client: 11");
     }
 

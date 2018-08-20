@@ -33,6 +33,6 @@ hs_err_pid*
 .idea/libraries/Maven__org_springframework_spring_expression_3_2_13_RELEASE.xml
 .idea/libraries/Maven__org_springframework_spring_jdbc_3_2_13_RELEASE.xml
 .idea/workspace.xml
-src/main/resources/
-src/test/
+# src/main/resources/
+# src/test/
 target/
