@@ -1,3 +1,5 @@
+package helloclient;
+
 public class Client {
 
     public Client(String id, String fullName){
