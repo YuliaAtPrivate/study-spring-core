@@ -16,7 +16,7 @@ public class App {
 
         ApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
         App app = (App) ctx.getBean("app");
-        app.logEvent("Message for my favorite client: 1 1 1");
+        app.logEvent("Message for my favorite client: 1 1 1 2");
     }
 
     private void logEvent(String msg){
