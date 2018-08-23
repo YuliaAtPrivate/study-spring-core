@@ -16,7 +16,18 @@
     <bean id="app" class="helloclient.App">
             <constructor-arg ref="client"/>
             <constructor-arg ref="eventLogger"/>
+            <constructor-arg ref ="event"/>
     </bean>
-    <!--target/classes/helloclient.Client.class-->
-    <!--C:\Users\Yulia_Atlasova\IdeaProjects\JA_study\study-spring-core\src\main\java\helloclient.Client.java-->
+
+    <bean id = "event" class="helloclient.Event" scope="prototype">
+        <constructor-arg>
+            <bean class="java.util.Date"/>
+        </constructor-arg>
+        <constructor-arg ref = "dateFormat"/>
+    </bean>
+
+    <bean id = "dateFormat"
+          class="java.text.DateFormat"
+          factory-method="getDateTimeInstance"/>
+
 </beans>
