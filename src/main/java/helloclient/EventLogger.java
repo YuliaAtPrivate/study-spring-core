@@ -1,5 +1,5 @@
 package helloclient;
 
 public interface EventLogger {
-    public void logEvent(Event enent);
+    public void logEvent(Event event);
 }

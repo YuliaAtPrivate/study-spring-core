@@ -15,7 +15,7 @@
 
     <bean id="app" class="helloclient.App">
             <constructor-arg ref="client"/>
-            <constructor-arg ref="eventLogger"/>
+            <constructor-arg ref="fileEventLogger"/>
             <constructor-arg ref ="event"/>
     </bean>
 
@@ -29,5 +29,10 @@
     <bean id = "dateFormat"
           class="java.text.DateFormat"
           factory-method="getDateTimeInstance"/>
+
+    <bean id="fileEventLogger" class="helloclient.FileEventLogger">
+        <constructor-arg value="src/main/resources/AppLog"/>
+
+    </bean>
 
 </beans>
