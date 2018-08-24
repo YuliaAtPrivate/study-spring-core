@@ -4,6 +4,7 @@ import org.apache.commons.io.FileUtils;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.Charset;
 
 public class FileEventLogger implements EventLogger {
 
@@ -17,12 +18,8 @@ public class FileEventLogger implements EventLogger {
     @Override
     public void logEvent(Event event) {
         try {
-            init();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-        try {
-            FileUtils.writeStringToFile(FileUtils.getFile(fileName), event.toString() + "\n", true);
+            FileUtils.writeStringToFile(FileUtils.getFile(fileName), event.toString() + "\n",
+                    Charset.defaultCharset(), true);
             System.out.println("ADDED IT");
         } catch (IOException e) {
             e.printStackTrace();
@@ -31,6 +28,7 @@ public class FileEventLogger implements EventLogger {
 
     public void init() throws IOException{
         this.file = new File(fileName);
+//        file.setWritable(true);
         if (!file.canWrite()){
             throw new IOException("Can't write to file!! Help!");
         }

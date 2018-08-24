@@ -30,7 +30,8 @@
           class="java.text.DateFormat"
           factory-method="getDateTimeInstance"/>
 
-    <bean id="fileEventLogger" class="helloclient.FileEventLogger">
+    <bean id="fileEventLogger" class="helloclient.FileEventLogger"
+    init-method="init">
         <constructor-arg value="src/main/resources/AppLog"/>
 
     </bean>
