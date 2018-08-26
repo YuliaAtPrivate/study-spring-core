@@ -13,7 +13,7 @@ public class FileEventLogger implements EventLogger {
 
     FileEventLogger(String fileName){
         this.fileName=fileName;
-        this.file = new File(fileName);
+       // this.file = new File(fileName);
     }
 
     @Override

@@ -17,7 +17,7 @@ public class App {
 
     public static void main(String[] args) {
 
-        ConfigurableApplicationContext ctx = new ClassPathXmlApplicationContext("spring.xml");
+        ConfigurableApplicationContext ctx = new ClassPathXmlApplicationContext("parentApp.xml");
         App app = (App) ctx.getBean("app");
         app.event.setMsg("vvпр. Бакунина, 5");
         app.logEvent(app.event);
