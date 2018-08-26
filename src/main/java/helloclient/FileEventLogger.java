@@ -11,8 +11,9 @@ public class FileEventLogger implements EventLogger {
     private String fileName;
     private File file;
 
-    private FileEventLogger(String fileName){
+    FileEventLogger(String fileName){
         this.fileName=fileName;
+        this.file = new File(fileName);
     }
 
     @Override

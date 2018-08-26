@@ -15,7 +15,7 @@
 
     <bean id="app" class="helloclient.App">
             <constructor-arg ref="client"/>
-            <constructor-arg ref="fileEventLogger"/>
+            <constructor-arg ref="cacheFileEventLogger"/>
             <constructor-arg ref ="event"/>
     </bean>
 
@@ -33,7 +33,12 @@
     <bean id="fileEventLogger" class="helloclient.FileEventLogger"
     init-method="init">
         <constructor-arg value="src/main/resources/AppLog"/>
+    </bean>
 
+    <bean id="cacheFileEventLogger" class="helloclient.CacheFileEventLogger"
+    destroy-method="destroy">
+        <constructor-arg value="src/main/resources/AppLog"/>
+        <constructor-arg value="3"/>
     </bean>
 
 </beans>
