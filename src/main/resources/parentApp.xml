@@ -1,30 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns="http://www.springframework.org/schema/beans"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
        xsi:schemaLocation="
  		http://www.springframework.org/schema/beans
- 		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+ 		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+        http://www.springframework.org/schema/util
+        http://www.springframework.org/schema/util/spring-util-3.2.xsd">
         <import resource="loggers.xml"/>
-
-    <bean id="client" class="helloclient.Client">
-        <constructor-arg index="1" value="BOO ZOO"/>
-        <constructor-arg index="0" value="1"/>
-        <property name="age" value="44"/>
-        <property name="boo" value="true"/>
-        <property name="greeting" value="juuuuuII"/>
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:client.properties</value>
+            </list>
+        </property>
+        <property name="ignoreResourceNotFound" value="false" />
+        <property name="systemPropertiesMode">
+            <util:constant
+                    static-field="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer.SYSTEM_PROPERTIES_MODE_OVERRIDE" />
+        </property>
     </bean>
+
+    <bean id="client" class="helloclient.Client" p:age="999" c:fullName="TRY CONST NAMESPACE!!">
+        <!--<constructor-arg index="1" value="${name}"/>-->
+        <constructor-arg index="0" value="${id}"/>
+        <!--<property name="age" value="900"/>-->
+        <!--<p:age="999">-->
+        <property name="boo" value="true"/>
+        <property name="greeting">
+                <util:constant static-field="java.lang.Math.PI"/>
+        </property>
+    </bean>
+    <util:map id="loggerMap">
+        <entry key="INFO"
+               value-ref="consoleEventLogger"/>
+        <entry key="ERROR"
+               value-ref="combinedEventLogger"/>
+        <entry key="DEFAULT"
+               value-ref="consoleEventLogger"/>
+    </util:map>
+
     <bean id="app" class="helloclient.App">
         <constructor-arg ref="client"/>
-        <constructor-arg>
-            <map>
-                <entry key="INFO"
-                       value-ref="consoleEventLogger"/>
-                <entry key="ERROR"
-                       value-ref="combinedEventLogger"/>
-                <entry key="DEFAULT"
-                       value-ref="consoleEventLogger"/>
-            </map>
-        </constructor-arg>
+        <constructor-arg
+            ref="loggerMap"/>
+        <!--</constructor-arg>-->
         <constructor-arg ref ="event"/>
         <constructor-arg value="ERROR"/>
     </bean>
