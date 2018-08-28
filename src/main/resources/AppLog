@@ -1,23 +1,42 @@
-Event{id=641, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 1:48:29 AM}
-Event{id=641, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 1:48:29 AM}
-Event{id=641, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 1:48:29 AM}
-Event{id=199, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 1:48:52 AM}
-Event{id=199, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 1:48:52 AM}
-Event{id=199, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 1:48:52 AM}
-Event{id=199, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 1:48:52 AM}
-Event{id=926, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 1:49:26 AM}
-Event{id=926, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 1:49:26 AM}
-Event{id=926, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 1:49:26 AM}
-Event{id=926, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 1:49:26 AM}
-Event{id=143, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 2:05:10 AM}
-Event{id=143, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 2:05:10 AM}
-Event{id=143, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 2:05:10 AM}
-Event{id=143, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 2:05:10 AM}
-Event{id=540, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 2:33:29 AM}
-Event{id=540, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 2:33:29 AM}
-Event{id=540, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 2:33:29 AM}
-Event{id=540, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 2:33:29 AM}
 Event{id=529, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 2:45:12 AM}
 Event{id=529, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 2:45:12 AM}
 Event{id=529, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 2:45:12 AM}
 Event{id=529, msg='vvпр. Бакунина, 5', date=Aug 27, 2018 2:45:12 AM}
+Event{id=583, msg='Бакунина, 55', date=Aug 28, 2018 2:56:11 AM}
+Event{id=583, msg='Бакунина, 55', date=Aug 28, 2018 2:56:11 AM}
+Event{id=583, msg='Бакунина, 55', date=Aug 28, 2018 2:56:11 AM}
+Event{id=583, msg='Бакунина, 55', date=Aug 28, 2018 2:56:11 AM}
+Event{id=336, msg='Бакунина, 55', date=Aug 28, 2018 2:57:12 AM}
+Event{id=336, msg='Бакунина, 55', date=Aug 28, 2018 2:57:12 AM}
+Event{id=336, msg='Бакунина, 55', date=Aug 28, 2018 2:57:12 AM}
+Event{id=336, msg='Бакунина, 55', date=Aug 28, 2018 2:57:12 AM}
+Event{id=37, msg='Бакунина, 55', date=Aug 28, 2018 3:05:08 AM}
+Event{id=511, msg='Бакунина, 55', date=Aug 28, 2018 3:07:18 AM}
+Event{id=511, msg='Бакунина, 55', date=Aug 28, 2018 3:07:18 AM}
+Event{id=511, msg='Бакунина, 55', date=Aug 28, 2018 3:07:18 AM}
+Event{id=511, msg='Бакунина, 55', date=Aug 28, 2018 3:07:18 AM}
+Event{id=50, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 28, 2018 3:08:37 AM}
+Event{id=50, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 28, 2018 3:08:37 AM}
+Event{id=50, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 28, 2018 3:08:37 AM}
+Event{id=50, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 28, 2018 3:08:37 AM}
+Event{id=337, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 28, 2018 3:09:32 AM}
+Event{id=337, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 28, 2018 3:09:32 AM}
+Event{id=337, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 28, 2018 3:09:32 AM}
+Event{id=337, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 28, 2018 3:09:32 AM}
+Event{id=83, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 28, 2018 3:10:13 AM}
+Event{id=83, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 28, 2018 3:10:13 AM}
+Event{id=83, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 28, 2018 3:10:13 AM}
+Event{id=83, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 28, 2018 3:10:13 AM}
+Event{id=58, msg='Бакунина, 55', date=Aug 28, 2018 3:10:40 AM}
+Event{id=58, msg='Бакунина, 55', date=Aug 28, 2018 3:10:40 AM}
+Event{id=58, msg='Бакунина, 55', date=Aug 28, 2018 3:10:40 AM}
+Event{id=58, msg='Бакунина, 55', date=Aug 28, 2018 3:10:40 AM}
+Event{id=326, msg='Бакунина, 55', date=Aug 28, 2018 3:11:58 AM}
+Event{id=821, msg='Бакунина, 55', date=Aug 28, 2018 3:13:27 AM}
+Event{id=821, msg='Бакунина, 55', date=Aug 28, 2018 3:13:27 AM}
+Event{id=821, msg='Бакунина, 55', date=Aug 28, 2018 3:13:27 AM}
+Event{id=821, msg='Бакунина, 55', date=Aug 28, 2018 3:13:27 AM}
+Event{id=602, msg='Бакунина, 55', date=Aug 28, 2018 3:27:43 AM}
+Event{id=681, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 28, 2018 3:27:43 AM}
+Event{id=602, msg='Бакунина, 55', date=Aug 28, 2018 3:27:43 AM}
+Event{id=602, msg='Бакунина, 55', date=Aug 28, 2018 3:27:43 AM}

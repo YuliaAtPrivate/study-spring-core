@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<beans xmlns="http://www.springframework.org/schema/beans"
-       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
        xsi:schemaLocation="
  		http://www.springframework.org/schema/beans
  		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
@@ -9,6 +9,9 @@
     <bean id="client" class="helloclient.Client">
         <constructor-arg index="1" value="BOO ZOO"/>
         <constructor-arg index="0" value="1"/>
+        <property name="age" value="44"/>
+        <property name="boo" value="true"/>
+        <property name="greeting" value="juuuuuII"/>
     </bean>
     <bean id="app" class="helloclient.App">
         <constructor-arg ref="client"/>

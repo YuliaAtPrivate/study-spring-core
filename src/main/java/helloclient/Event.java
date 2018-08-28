@@ -6,6 +6,15 @@ import java.util.concurrent.ThreadLocalRandom;
 
 public class Event {
     private int id;
+    private String msg;
+    private Date date;
+    private DateFormat dateFormat;
+
+    public Event(Date date, DateFormat df){
+        this.date = date;
+        this.id = ThreadLocalRandom.current().nextInt(0, 1000);
+        this.dateFormat = df;
+    }
 
     public String getMsg() {
         return msg;
@@ -15,14 +24,12 @@ public class Event {
         this.msg = msg;
     }
 
-    private String msg;
-    private Date date;
-    private DateFormat dateFormat;
+    public Date getDate() {
+        return date;
+    }
 
-    public Event(Date date, DateFormat df){
-        this.date = date;
-        this.id = ThreadLocalRandom.current().nextInt(0, 1000);
-        this.dateFormat = df;
+    public DateFormat getDateFormat() {
+        return dateFormat;
     }
 
     @Override
