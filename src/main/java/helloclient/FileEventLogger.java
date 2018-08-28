@@ -13,7 +13,6 @@ public class FileEventLogger implements EventLogger {
 
     FileEventLogger(String fileName){
         this.fileName=fileName;
-       // this.file = new File(fileName);
     }
 
     @Override
@@ -21,7 +20,7 @@ public class FileEventLogger implements EventLogger {
         try {
             FileUtils.writeStringToFile(FileUtils.getFile(fileName), event.toString() + "\n",
                     Charset.defaultCharset(), true);
-            System.out.println("ADDED IT");
+            System.out.println("ADDED IT TO LOG FILE");
         } catch (IOException e) {
             e.printStackTrace();
         }

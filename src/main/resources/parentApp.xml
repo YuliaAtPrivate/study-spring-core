@@ -15,8 +15,18 @@
     </bean>
     <bean id="app" class="helloclient.App">
         <constructor-arg ref="client"/>
-        <constructor-arg ref="cacheFileEventLogger"/>
+        <constructor-arg>
+            <map>
+                <entry key="INFO"
+                       value-ref="consoleEventLogger"/>
+                <entry key="ERROR"
+                       value-ref="combinedEventLogger"/>
+                <entry key="DEFAULT"
+                       value-ref="consoleEventLogger"/>
+            </map>
+        </constructor-arg>
         <constructor-arg ref ="event"/>
+        <constructor-arg value="ERROR"/>
     </bean>
     <bean id = "event" class="helloclient.Event" scope="prototype">
         <constructor-arg>

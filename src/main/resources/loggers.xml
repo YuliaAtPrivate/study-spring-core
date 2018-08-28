@@ -5,7 +5,7 @@
  		http://www.springframework.org/schema/beans
  		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
 
-    <bean id="eventLogger" class="helloclient.ConsoleEventLogger"/>
+    <bean id="consoleEventLogger" class="helloclient.ConsoleEventLogger"/>
     <bean id="fileEventLogger" class="helloclient.FileEventLogger"
           init-method="init">
         <constructor-arg value="src/main/resources/AppLog"/>
@@ -15,5 +15,14 @@
           destroy-method="destroy">
         <!--<constructor-arg value="src/main/resources/AppLog"/>-->
         <constructor-arg value="3"/>
+    </bean>
+    <bean id="combinedEventLogger" class="helloclient.CombinedEventLogger">
+        <constructor-arg>
+            <list>
+                <ref bean="consoleEventLogger"/>
+                <ref bean="cacheFileEventLogger"/>
+            </list>
+        </constructor-arg>
+
     </bean>
 </beans>

@@ -40,3 +40,30 @@ Event{id=602, msg='Бакунина, 55', date=Aug 28, 2018 3:27:43 AM}
 Event{id=681, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 28, 2018 3:27:43 AM}
 Event{id=602, msg='Бакунина, 55', date=Aug 28, 2018 3:27:43 AM}
 Event{id=602, msg='Бакунина, 55', date=Aug 28, 2018 3:27:43 AM}
+Event{id=255, msg='Бакунина, 55', date=Aug 29, 2018 1:11:40 AM}
+Event{id=759, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 29, 2018 1:11:40 AM}
+Event{id=255, msg='Бакунина, 55', date=Aug 29, 2018 1:11:40 AM}
+Event{id=255, msg='Бакунина, 55', date=Aug 29, 2018 1:11:40 AM}
+Event{id=951, msg='Бакунина, 55', date=Aug 29, 2018 1:13:08 AM}
+Event{id=848, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 29, 2018 1:13:08 AM}
+Event{id=951, msg='Бакунина, 55', date=Aug 29, 2018 1:13:08 AM}
+Event{id=951, msg='Бакунина, 55', date=Aug 29, 2018 1:13:08 AM}
+Event{id=301, msg='Бакунина, 55', date=Aug 29, 2018 1:14:22 AM}
+Event{id=703, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 29, 2018 1:14:22 AM}
+Event{id=301, msg='Бакунина, 55', date=Aug 29, 2018 1:14:22 AM}
+Event{id=301, msg='Бакунина, 55', date=Aug 29, 2018 1:14:22 AM}
+Event{id=316, msg='Бакунина, 55', date=Aug 29, 2018 1:16:08 AM}
+Event{id=415, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 29, 2018 1:16:08 AM}
+Event{id=316, msg='Бакунина, 55', date=Aug 29, 2018 1:16:08 AM}
+Event{id=316, msg='Бакунина, 55', date=Aug 29, 2018 1:16:08 AM}
+==
+
+Event{id=855, msg='Бакунина, 55', date=Aug 29, 2018 1:16:59 AM}
+Event{id=50, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 29, 2018 1:16:59 AM}
+Event{id=855, msg='Бакунина, 55', date=Aug 29, 2018 1:16:59 AM}
+Event{id=855, msg='Бакунина, 55', date=Aug 29, 2018 1:16:59 AM}
+==
+Event{id=515, msg='Бакунина, 55', date=Aug 29, 2018 1:18:15 AM}
+Event{id=607, msg='Client{id='1', fullName='BOO ZOO', age=44, greeting='juuuuuII', boo=true}', date=Aug 29, 2018 1:18:15 AM}
+Event{id=515, msg='Бакунина, 55', date=Aug 29, 2018 1:18:15 AM}
+Event{id=515, msg='Бакунина, 55', date=Aug 29, 2018 1:18:15 AM}
