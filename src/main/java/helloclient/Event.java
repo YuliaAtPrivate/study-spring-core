@@ -1,6 +1,9 @@
 package helloclient;
 
+import java.sql.Time;
 import java.text.DateFormat;
+import java.time.LocalTime;
+import java.time.OffsetTime;
 import java.util.Date;
 import java.util.concurrent.ThreadLocalRandom;
 
@@ -30,6 +33,12 @@ public class Event {
 
     public DateFormat getDateFormat() {
         return dateFormat;
+    }
+
+    public static boolean isDay(int add){
+        LocalTime time = LocalTime.now().plusHours(add);
+//        LocalTime time = LocalTime.now();
+        return time.isAfter(LocalTime.of(12,0)) && time.isBefore(LocalTime.of(18,0));
     }
 
     @Override

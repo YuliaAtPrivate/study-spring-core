@@ -99,3 +99,23 @@ Event{id=958, msg='Бакунина, 55', date=Aug 29, 2018 2:58:28 AM}
 Event{id=722, msg='Client{id='778899', fullName='TRY CONST NAMESPACE!!', age=999, greeting='3.141592653589793', boo=true}', date=Aug 29, 2018 2:58:28 AM}
 Event{id=958, msg='Бакунина, 55', date=Aug 29, 2018 2:58:28 AM}
 Event{id=958, msg='Бакунина, 55', date=Aug 29, 2018 2:58:28 AM}
+Event{id=252, msg='Бакунина, 55', date=Sep 5, 2018 2:03:27 AM}
+Event{id=728, msg='Client{id='778899', fullName='TRY CONST NAMESPACE!!', age=888, greeting='3.141592653589793', boo=true}', date=Sep 5, 2018 2:03:27 AM}
+Event{id=252, msg='Бакунина, 55', date=Sep 5, 2018 2:03:27 AM}
+Event{id=252, msg='Бакунина, 55', date=Sep 5, 2018 2:03:27 AM}
+Event{id=166, msg='Бакунина, 55', date=Sep 5, 2018 2:05:22 AM}
+Event{id=245, msg='Client{id='778899', fullName='TRY CONST NAMESPACE!!', age=778899, greeting='3.141592653589793', boo=true}', date=Sep 5, 2018 2:05:22 AM}
+Event{id=166, msg='Бакунина, 55', date=Sep 5, 2018 2:05:22 AM}
+Event{id=166, msg='Бакунина, 55', date=Sep 5, 2018 2:05:22 AM}
+Event{id=929, msg='Бакунина, 55', date=Sep 5, 2018 2:22:54 AM}
+Event{id=780, msg='Client{id='778899', fullName='BUbuBU', age=778899, greeting='3.141592653589793', boo=true}', date=Sep 5, 2018 2:22:54 AM}
+Event{id=929, msg='Бакунина, 55', date=Sep 5, 2018 2:22:54 AM}
+Event{id=929, msg='Бакунина, 55', date=Sep 5, 2018 2:22:54 AM}
+Event{id=762, msg='Бакунина, 55', date=Sep 5, 2018 2:59:38 AM}
+Event{id=901, msg='Client{id='778899', fullName='BUbuBU', age=778899, greeting='3.141592653589793', boo=true}', date=Sep 5, 2018 2:59:38 AM}
+Event{id=762, msg='Бакунина, 55', date=Sep 5, 2018 2:59:38 AM}
+Event{id=762, msg='Бакунина, 55', date=Sep 5, 2018 2:59:38 AM}
+Event{id=636, msg='Бакунина, 55', date=Sep 5, 2018 3:00:18 AM}
+Event{id=152, msg='Client{id='778899', fullName='BUbuBU', age=778899, greeting='3.141592653589793', boo=true}', date=Sep 5, 2018 3:00:18 AM}
+Event{id=636, msg='Бакунина, 55', date=Sep 5, 2018 3:00:18 AM}
+Event{id=636, msg='Бакунина, 55', date=Sep 5, 2018 3:00:18 AM}

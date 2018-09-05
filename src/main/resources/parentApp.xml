@@ -10,6 +10,7 @@
         http://www.springframework.org/schema/util
         http://www.springframework.org/schema/util/spring-util-3.2.xsd">
         <import resource="loggers.xml"/>
+
     <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
         <property name="locations">
             <list>
@@ -23,7 +24,7 @@
         </property>
     </bean>
 
-    <bean id="client" class="helloclient.Client" p:age="999" c:fullName="TRY CONST NAMESPACE!!">
+    <bean id="client" class="helloclient.Client" p:age="#{client.id}" c:fullName="#{ systemEnvironment['USER']}">
         <!--<constructor-arg index="1" value="${name}"/>-->
         <constructor-arg index="0" value="${id}"/>
         <!--<property name="age" value="900"/>-->
@@ -48,7 +49,7 @@
             ref="loggerMap"/>
         <!--</constructor-arg>-->
         <constructor-arg ref ="event"/>
-        <constructor-arg value="ERROR"/>
+        <constructor-arg value="#{T(helloclient.Event).isDay(12) ? 'INFO' : 'ERROR'}"/>
     </bean>
     <bean id = "event" class="helloclient.Event" scope="prototype">
         <constructor-arg>
